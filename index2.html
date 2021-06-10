@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>강웅의웹사이트</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Helvetica';
+        }
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+        ul,ol{
+            list-style: none;
+        }
+
+        #page{
+
+          width: 100%;
+          height: 100%;
+        position: relative;
+
+        }
+        #bg{
+            background-image: url(./img/bg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow: hidden;
+            width: 100%;
+            height: 3800px;
+
+
+        }
+        #logo{
+
+        }
+        #menu{
+            color: #ffffff;
+            margin-top: 50px;
+        }
+        #menu li{
+            margin-top: 25px;
+            font-family: 'Helvetica';
+            font-style: oblique;
+        }
+        header{
+            width: 200px;
+            height: 100%;
+
+            padding-left: 80px;
+            padding-top: 50px;
+            position: fixed;
+            z-index: 9;
+        }
+        #one{
+            width: 100%;
+            height: 1000px;
+            margin-top: 10%;
+
+        }
+        #one_in{
+            width: 70%;
+
+            margin: auto;
+        }
+        #one_in_text{
+            width: 100%;
+            color: #ffffff;
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            font-family: 'Helvetica';
+
+
+        }
+        #one_in_img{
+            margin-top: 30px;
+        }
+        #one_in_img li{
+            width: 30%;
+            height: 800px;
+            margin: 15px;
+            display: inline-block;
+            color: #ffffff;
+
+        }
+        #one_in_img li img{
+            width: 100%;
+
+        }
+
+
+        #two{
+            width: 100%;
+            height: 1000px;
+            margin-top: 300px;
+
+        }
+        #two_in{
+            width: 70%;
+
+            margin: auto;
+        }
+        #two_in_text{
+            width: 100%;
+            color: #ffffff;
+            text-align: center;
+            font-size: 60px;
+            font-weight: bold;
+            font-family: 'Helvetica';
+            font-style: oblique;
+
+        }
+        #two_in_img{
+            margin-top: 30px;
+        }
+        #two_in_img li{
+            width: 30%;
+            height: 800px;
+            margin: 15px;
+            display: inline-block;
+            color: #ffffff;
+
+        }
+        #two_in_img li img{
+            width: 100%;
+
+        }
+
+
+        #contents{
+            width: 40%;
+          left: 30%;
+            position: absolute;
+            top: 13%;
+            z-index: 1;
+            color: #fff;
+            text-align: center;
+            line-height: 50px;
+        }
+        #contents3{
+            width: 60%;
+
+            position: absolute;
+            top: 65%;
+          left: 20%;
+            text-align: center;
+            z-index: 1;
+            color: #fff
+        }
+        #contents3 img{
+            width: 500px;
+              border-radius:1000px;
+        }
+        #contents3 p{
+            margin-top: 70px
+        }
+        #contents img{
+            width: 100%;
+        }
+
+        #contents2{
+            position: absolute;
+            width: 60%;
+          font-weight: bold;
+            line-height: 90px;
+            top: 50%;
+            left: 20%;
+            text-align: center;
+            font-size: 50px;
+            color: #fff;
+        }
+
+
+        @media ( max-width: 960px ) {
+            #bg{
+                background-image: none;
+            }
+            #menu{
+                color: black
+            }
+            #left{
+                display: none;
+            }
+            #one_in_text{
+                font-size: 20px;
+                color: black;
+            }
+            p{
+                color: black;
+            }
+}
+    </style>
+</head>
+
+
+<body >
+    <div id="page">
+        <div id="bg">
+        <header>
+
+            <a href="index.html"><div id="logo">
+                <img src="./img/logo.png" alt="">
+            </div></a>
+            <ul id="menu">
+                <a href="index2.html"><li>MENU 1</li></a>
+                <a href="index3.html"><li>MENU 2</li></a>
+                <a href="index4.html"><li>MENU 3</li></a>
+            </ul>
+        </header>
+        <section  id="one">
+            <div id="one_in">
+                <div id="one_in_text">안녕하세요. <br>제 이름은 강웅이고, 디자인을 공부하는 학생입니다.</div>
+            </div>
+        </section>
+              <div id="contents">
+
+                  <img src="img/3.jpg" alt="">
+                  <p>1997년 10월 1일 생</p>
+                  <p>계원예술대학교 재학중</p>
+                  <p>무채색을 좋아합니다.</p>
+                  <p>기획과 디자인, 코딩을 배우고 있습니다.</p>
+                  <p>저만의 디자인 스튜디오를 <br> 세우는 것이 꿈입니다.</p>
+
+              </div>
+
+        </div>
+        <div id="contents2">
+
+            <p>복학 했을 때만 해도 포토샵도 잘 못 썼습니다.
+            하지만 이젠 강해졌습니다.</p>
+            <br>
+
+
+        </div>
+         <div id="contents3">
+
+
+            <img src="img/1.jpg" alt="">
+            <p>앞으로 더욱 더 강해질 강웅을 기대해도 좋습니다.</p>
+        </div>
+    </div>
+</body>
+
+</html>
